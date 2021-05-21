@@ -28,7 +28,7 @@ app.use("/shared", express.static(__dirname + "views/shared"));
 app.set("views", [path.join(__dirname, "views"), path.join(__dirname, "views/shared")]);
 app.set("view engine", "ejs");
 
-app.get("" || "/home", (req, res) => {
+app.get("", (req, res) => {
     res.render("layout", {title: "Home", layout: "index.ejs"});
 });
 
