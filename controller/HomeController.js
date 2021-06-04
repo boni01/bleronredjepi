@@ -6,8 +6,8 @@ router.get("/", (req, res) =>{
     res.render("layout", { title: "route home", layout: "index.ejs" });
 })
 
-router.get("/about", (req, res) => {
-    res.render("layout", {title: "About", layout: "about.ejs"});
+router.get("/styleguide", (req, res) => {
+    res.render("layout", {title: "Styleguide", layout: "styleguide.ejs"});
 });
 
 
