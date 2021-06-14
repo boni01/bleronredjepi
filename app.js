@@ -1,5 +1,4 @@
 // Imports
-
 const cookieSession = require('cookie-session');
 const express = require('express');
 const path = require('path');
@@ -23,6 +22,7 @@ app.use("/css", express.static(__dirname + "public/css"));
 app.use("/js", express.static(__dirname + "public/js"));
 app.use("/img", express.static(__dirname + "public/img"));
 app.use("/lib", express.static(__dirname + "public/lib"));
+
 
 // Set views
 app.set("views", [path.join(__dirname, "views"), path.join(__dirname, "views/shared")]);
