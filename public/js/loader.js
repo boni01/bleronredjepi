@@ -1,7 +1,13 @@
-const loader = document.getElementById("loading");
-
-window.addEventListener("load", () => {
-    if(document.readyState === "complete"){
-        loader.style.display = "none"
-    }
+$(window).on("load", function(){
+    $("#wrapper").hide();
+    setTimeout(removeLoading, 4500)
 })
+
+function removeLoading() {
+
+    $("#loading").remove()
+
+    $("#wrapper").fadeIn(500, function(){
+        $("#wrapper").show();
+    });
+}

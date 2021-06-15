@@ -1,5 +1,6 @@
 :root {
     --background: #ffffff;
+
 }
 
 .loader {
@@ -11,6 +12,7 @@
     height: 320px;
     position: relative;
     transform-style: preserve-3d;
+    z-index: 100000;
 }
 
 @media (max-width: 480px) {
@@ -31,6 +33,7 @@
     background: var(--background);
     transform: translateZ(200px) rotate(var(--r));
     animation: mask var(--duration) linear forwards infinite;
+    z-index: 1000;
 }
 
 .loader:after {
@@ -181,66 +184,130 @@
 }
 
 .loader .box0 {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-move0;
 }
 
 .loader .box0 div {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-scale0;
 }
 
 .loader .box1 {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-move1;
 }
 
 .loader .box1 div {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-scale1;
 }
 
 .loader .box2 {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-move2;
 }
 
 .loader .box2 div {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-scale2;
 }
 
 .loader .box3 {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-move3;
 }
 
 .loader .box3 div {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-scale3;
 }
 
 .loader .box4 {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-move4;
 }
 
 .loader .box4 div {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-scale4;
 }
 
 .loader .box5 {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-move5;
 }
 
 .loader .box5 div {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-scale5;
 }
 
 .loader .box6 {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-move6;
 }
 
 .loader .box6 div {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-scale6;
 }
 
 .loader .box7 {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-move7;
 }
 
 .loader .box7 div {
+    border-radius: 0;
+    border: solid 0;
+    margin-bottom: 0;
+    padding: 0;
     animation-name: box-scale7;
 }
 
@@ -599,4 +666,9 @@ body .dribbble {
     display: block;
     right: 24px;
     bottom: 24px;
+}
+
+body .dribbble img {
+    display: block;
+    width: 76px;
 }
