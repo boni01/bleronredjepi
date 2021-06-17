@@ -1,6 +1,6 @@
 $(window).on("load", function(){
     $("#wrapper").hide();
-    setTimeout(removeLoading, (Math.random() * (4500 - 1500) + 1500))
+    setTimeout(removeLoading, (Math.random() * (4500 - 100) + 100))
 })
 
 function removeLoading() {
