@@ -27,7 +27,7 @@ app.use("/videos", express.static(__dirname + "public/videos"))
 
 
 // Set views
-app.set("views", [path.join(__dirname, "views"), path.join(__dirname, "views/shared")]);
+app.set("views", [path.join(__dirname, "views")]);
 app.set("view engine", "ejs");
 
 app.use(homeController)
