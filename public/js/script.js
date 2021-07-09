@@ -189,6 +189,7 @@ for (let i = 0; i < allMusic.length; i++) {
 
   let liAudioDuartionTag = ulTag.querySelector(`#${allMusic[i].src}`);
   let liAudioTag = ulTag.querySelector(`.${allMusic[i].src}`);
+  if(liAudioTag){
   liAudioTag.addEventListener("loadeddata", ()=>{
     let duration = liAudioTag.duration;
     let totalMin = Math.floor(duration / 60);
@@ -199,6 +200,7 @@ for (let i = 0; i < allMusic.length; i++) {
     liAudioDuartionTag.innerText = `${totalMin}:${totalSec}`; //passing total duation of song
     liAudioDuartionTag.setAttribute("t-duration", `${totalMin}:${totalSec}`); //adding t-duration attribute with total duration value
   });
+}
 }
 
 //play particular song from the list onclick of li tag

@@ -116,6 +116,7 @@ input, select, textarea {
 #gallery .content .box video {
 	display: block;
 	margin: auto;
+	width: auto;
 }
 
 #gallery .content .box h3{
@@ -138,6 +139,84 @@ input, select, textarea {
     line-height: 40px;
     text-transform: uppercase;
     margin-top: 15px;
+	border-radius: 3px;
+}
+
+#galleryinsection {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#galleryinsection h2 {
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+#galleryinsection .content {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#galleryinsection .content .box {
+	overflow: hidden;
+	width: 100%;
+	margin: 15px;
+	padding: 15px;
+	box-shadow: 4px 5px 10px #ddd;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+#galleryinsection .content .box:hover {
+	box-shadow: none;
+	cursor: unset;
+}
+
+#galleryinsection .content .box img {
+	width: 100%;
+	height: 300px;
+	display: block;
+	object-fit: cover;
+}
+
+#galleryinsection .content .box canvas {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#galleryinsection .content .box video {
+	display: block;
+	margin: auto;
+	width: auto;
+}
+
+#galleryinsection .content .box h3 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 10px;
+}
+
+#galleryinsection span {
+	color: teal;
+	padding-right: 10px;
+}
+
+#galleryinsection a {
+	text-decoration: none;
+	color: white;
+	background: #555;
+	display: block;
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-top: 15px;
 	border-radius: 3px;
 }
 

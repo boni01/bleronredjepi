@@ -10,20 +10,38 @@
 <article id="work">
     <h2 class="major">Work</h2>
     <span class="image main"><img src="img/pic02.jpg" alt="" /></span>
-    <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+
 </article>
 
 <!-- About -->
 <article id="about">
     <h2 class="major">About</h2>
     <span class="image main"><img src="img/pic03.jpg" alt="" /></span>
-    <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+    <p></p>
 </article>
 
-<article class="impresum">
+
+
+<!--Impressum-->
+<article id="impressum">
     <h2 class="major">Impresum</h2>
-</article>
+    <h3>Angaben gem&auml;&szlig;&sect; 5 TMG</h3>
+    <p><b>Name:</b> Bleron Redjepi</p>
+    <p><b>Adresse:</b> Im Dreispitz 9<br/> 8152 Glattbrugg</p>
+    <h3>Kontakt</h3>
+    <p><b>E-Mail: </b> <a href="mailto:bleron.redjepi.ch@gmail.com"></a>bleron.redjepi.ch@gmail.com</p>
+    <p><b>Telefonnummer:</b> <a href="tel:+41786902062"></a> +41 78 690 20 62</p>
+    <h3>Urheberrecht</h3>
+    <p>Der Grundsatz des Urheberrechts besteht darin, dass das Werk als geistiger und kreativer Ausdruck des Urhebers
+        untrennbar mit seiner Person verbunden ist. Daher kann der Urheber seine Rechte an diesem Werk auch nie völlig
+        abgeben.
+        Er kann anderen nur die Lizenz erteilen, sein Werk auf bestimmte Art und Weise zu nutzen.</p>
+    <h3>Quellen</h3>
+    <p><b>Impressum: </b> <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
+    <p><b>Layout: </b> <a href="https://html5up.com">html5up.com</a></p>
+    <p><b>Urheberrecht und Lizenz:</b> <a href="https://www.bpb.de/gesellschaft/medien-und-sport/urheberrecht/169971/urheberrecht-und-copyright">https://www.bpb.de/gesellschaft/medien-und-sport/urheberrecht/169971/urheberrecht-und-copyright</a></p>
+    <p><b>Medien: </b> Die meisten angezeigten Bilder sind von mir ausser die Bilder, die verschwommen sind und auf der Audo seite angezeigt werden. Alle Videos und Sounds sind selbst hergestellt.</p>
+    </article>
 
 <!-- Contact -->
 <article id="contact">
@@ -66,10 +84,12 @@
                 <div class="text">
                     <h3>The Solar System</h3>
                     <span>This is the Solar System</span>
-                    <p>
-
-                    </p>
                 </div>
+            </div>
+
+            <div class="box">
+                <img src="videos/passat_germany.gif" alt="GIF Animation">
+                <h3>Ein Gif vom Video weiter unten.</h3>
             </div>
 
             <div class="box" data-aos="fade-up-right">
@@ -128,10 +148,6 @@
 
 </article>
 
-<article id="impresum">
-
-</article>
-
 <!--Audio-->
 <article id="audio">
         <div class="wrapper">
@@ -178,9 +194,6 @@
             </ul>
           </div>
         </div>
-      
-        <script src="js/music-list.js"></script>
-        <script src="js/script.js"></script>
       
 
 </article>
@@ -423,6 +436,67 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
               <li><input type="reset" value="Reset" /></li>
           </ul>
       </form>
+  </section>
+  <section>
+      <h3 class="major">Audio</h3>
+            <div class="wrapper">
+                <div class="top-bar">
+                    <a href="#gallery"><i class="material-icons">expand_more</i></a>
+                    <span>Now Playing</span>
+                    <i></i>
+                </div>
+                <div class="img-area">
+                    <img src="img/music-1.jpg" alt="">
+                </div>
+                <div class="song-details">
+                    <p class="name">Name of song( In meinem Fall das Angeben des Format)</p>
+                    <p class="artist">Name of Artist( In meinem Fall eine Beschreibung des Formates</p>
+                </div>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <audio id="main-audio" src=""></audio>
+                    </div>
+                    <div class="song-timer">
+                        <span class="current-time">0:00</span>
+                        <span class="max-duration">0:00</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+                    <i id="prev" class="material-icons">skip_previous</i>
+                    <div class="play-pause">
+                        <i class="material-icons play">play_arrow</i>
+                    </div>
+                    <i id="next" class="material-icons">skip_next</i>
+                    <i id="more-music" class="material-icons">queue_music</i>
+                </div>
+                <div class="music-list">
+                    <div class="header">
+                        <div class="row">
+                            <i class="list material-icons">queue_music</i>
+                            <span>Music list</span>
+                        </div>
+                        <i id="close" class="material-icons">close</i>
+                    </div>
+                    <ul>
+                        <!-- here li list are coming from js -->
+                    </ul>
+                </div>
+            </div>
+  </section>
+
+  <section id="galleryinsection">
+      <h3 class="major">Gallery</h3>
+    <div class="content">
+        <div class="box" data-aos="fade-up-right">
+            <img src="img/e30.jpeg" alt="picture in JPEG format">
+            <div class="text">
+                <h3>Format: JPEG</h3>
+                <span>Eine gute Auswahl. JPEG wird nicht so Präzise wie PNG komprimiert.</span>
+                <p>Die Farbe vom span: <code>span {color: teal}</code></p>
+            </div>
+        </div>
+    </div>
   </section>
 
 </article>
