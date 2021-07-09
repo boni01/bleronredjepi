@@ -23,6 +23,7 @@ app.use("/js", express.static(__dirname + "public/js"));
 app.use("/img", express.static(__dirname + "public/img"));
 app.use("/lib", express.static(__dirname + "public/lib"));
 app.use("/sounds", express.static(__dirname + "public/sounds"))
+app.use("/videos", express.static(__dirname + "public/videos"))
 
 
 // Set views

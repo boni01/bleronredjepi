@@ -23,8 +23,8 @@ window.addEventListener("load", ()=>{
 function loadMusic(indexNumb){
   musicName.innerText = allMusic[indexNumb - 1].name;
   musicArtist.innerText = allMusic[indexNumb - 1].artist;
-  musicImg.src = `img/${allMusic[indexNumb - 1].src}.jpg`;
-  mainAudio.src = `sounds/${allMusic[indexNumb - 1].src}.mp3`;
+  musicImg.src = `img/${allMusic[indexNumb - 1].img}.jpg`;
+  mainAudio.src = `sounds/${allMusic[indexNumb - 1].src}`;
 }
 
 //play music function
@@ -183,7 +183,7 @@ for (let i = 0; i < allMusic.length; i++) {
                   <p>${allMusic[i].artist}</p>
                 </div>
                 <span id="${allMusic[i].src}" class="audio-duration">3:40</span>
-                <audio class="${allMusic[i].src}" src="sounds/${allMusic[i].src}.mp3"></audio>
+                <audio class="${allMusic[i].src}" src="sounds/${allMusic[i].src}"></audio>
               </li>`;
   ulTag.insertAdjacentHTML("beforeend", liTag); //inserting the li inside ul tag
 

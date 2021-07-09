@@ -2,8 +2,8 @@
 <article id="intro">
     <h2 class="major">Intro</h2>
     <span class="image main"><img src="img/pic01.jpg" alt="" /></span>
-    <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+    <p></p>
+    <p>Hallo. Ich bin Bleron. Diese Webseite ist ein Auftrag von Herr Harald Müller. Er unterichtet mich im Modulfach 152.</p>
 </article>
 
 <!-- Work -->
@@ -19,6 +19,10 @@
     <h2 class="major">About</h2>
     <span class="image main"><img src="img/pic03.jpg" alt="" /></span>
     <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+</article>
+
+<article class="impresum">
+    <h2 class="major">Impresum</h2>
 </article>
 
 <!-- Contact -->
@@ -52,80 +56,87 @@
     </ul>
 </article>
 <!--Gallery-->
-<article id="Gallery">
-    <div id="Gallery">
+<article id="gallery">
+    <div >
         <h2>My Gallery</h2>
         <div class="content">
 
-            <div class="box" >
-                <img src="img/bg.jpg" alt="">
+            <div class="box">
+                <canvas id="solarSystem" width="300px" height="300px"></canvas>
                 <div class="text">
-                    <h3>My car</h3>
-                    <span>This is the car i wanted as a kid</span>
+                    <h3>The Solar System</h3>
+                    <span>This is the Solar System</span>
                     <p>
 
                     </p>
-                    
-                    <a href="#Audio">Read more</a>
                 </div>
             </div>
 
             <div class="box" data-aos="fade-up-right">
-                <img src="img/pic02.jpg" alt="">
+                <img src="img/e30.jpeg" alt="picture in JPEG format">
                 <div class="text">
-                    <h3>My house</h3>
-                    <span>this is my new house</span>
-                    <p>
-
-                    </p>
+                    <h3>Format: JPEG</h3>
+                    <span>Eine gute Auswahl. JPEG wird nicht so Präzise wie PNG komprimiert.</span>
                 
-                    <a href="#Audio">Read more</a>
                 </div>
             </div>
             <div class="box" data-aos="flip-up">
-                <img src="img/pic01.jpg" alt="">
+                <img src="img/e30.png" alt="picture in PNG format">
                 <div class="text">
-                    <h3>My hoobie</h3>
-                    <span>In my free time i like to drive my cars</span>
-                    <p>
-
-                    </p>
+                    <h3>Format: PNG</h3>
+                    <span>PNG kann die Bilder genauer reproduzieren. Zudem bietet es eine bessere Kompromierung wird aber die Browserunterstützung ist eingeschränkt.</span>
                 
-                    <a href="#Audio">Read more</a>
                 </div>
             </div>
             <div class="box" data-aos="zoom-in-down">
-                <img src="img/pic03.jpg" alt="">
+                <img src="img/e30.gif" alt="picture in GIF format">
                 <div class="text">
-                    <h3>Me drifting</h3>
-                    <span>i like to drift my BMW</span>
-                    <p>
-
-                    </p>
-                    <a href="#Audio">Read more</a>
+                    <h3>Format: Gif</h3>
+                    <span>Gute Wahl für einfache Bilder.</span>
                 </div>
             </div>
-            <div class="box" data-aos="flip-down">
-                <img src="img/bg.jpg" alt="">
+            <div class="box" data-aos="zoom-in">
+                <video width="500" height="500" controls>
+                    <source src="videos/passat_germany.avi" type="video/avi">
+                </video>
                 <div class="text">
-                    <h3>My work</h3>
-                    <span>I am working and studying as a software engineer</span>
-                    <p>
-
-                    </p>
-                    
-                    <a href="#Audio">Read more</a>
+                    <h3>Format: AVI</h3>
+                    <span>Wie man sieht kann es nicht geöffnet werden. Grund dafür ist, dass der Browser diese art von Format nicht unterstützt.</span>
+                </div>
             </div>
-            
+            <div class="box" data-aos="zoom-in">
+                <video width="500" height="500" controls>
+                    <source src="videos/passat_germany.mp4" type="video/mp4">
+                </video>
+                <div class="text">
+                    <h3>Format: MP4</h3>
+                    <span>MP4 ist das beste Format für eine Webseite, weil es HTML protokolle voll unterstützt.</span>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-down">
+                <video width="500" height="500" controls>
+                    <source src="videos/passat_germany.wmv" type="video/wmv">
+                </video>
+                
+                <div class="text">
+                    <h3>Format: WMV</h3>
+                    <span>WMV hat die kleinste Dateigrösse unter allen Videoformaten. Es hat aber auch eine geringe Qualität weil es stark komprimiert wird. Um eine WMV-Datei abspielen zu können, braucht es den Windows Media Player. Es gibt kein vorinstallierten Plub-Ins welche dieses Format abspielen.</span>
+                </div>
+            </div>
+            <a href="#audio">Audio</a>
           
 
 </article>
+
+<article id="impresum">
+
+</article>
+
 <!--Audio-->
-<article id="Audio">
-    <body>
+<article id="audio">
         <div class="wrapper">
           <div class="top-bar">
-            <a href="#Gallery"><i class="material-icons">expand_more</i></a>
+            <a href="#gallery"><i class="material-icons">expand_more</i></a>
             <span>Now Playing</span>
             <i></i>
           </div>
@@ -170,8 +181,6 @@
       
         <script src="js/music-list.js"></script>
         <script src="js/script.js"></script>
-      
-      </body>
       
 
 </article>

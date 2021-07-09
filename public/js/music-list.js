@@ -11,41 +11,23 @@
 
 let allMusic = [
   {
-    name: "Harley Bird - Home",
-    artist: "Jordan Schor",
+    name: "Format: MP3",
+    artist: "Bestes Format. Alle Browser unterstützen dieses Format",
     img: "music-1",
-    src: "music-1"
+    src: "e36_drift.mp3"
   },
   {
-    name: "Ikson Anywhere – Ikson",
-    artist: "Audio Library",
+    name: "Format: WAV",
+    artist: "Alle auser Internet Explorer unterstützen diese Fromat",
     img: "music-2",
-    src: "music-2"
+    src: "e36_drift.wav"
   },
   {
-    name: "Beauz & Jvna - Crazy",
-    artist: "Beauz & Jvna",
+    name: "Format: AAC",
+    artist: "Dieses Format wird von Firefox version 2 - 21 nicht unterstützt. Version 22 - 61 unterstützt dieses Format nut zeilweise. Mann müsste es in einem MP4 Container einwickeln, damit es funktioniert",
     img: "music-3",
-    src: "music-3"
-  },
-  {
-    name: "Hardwind - Want Me",
-    artist: "Mike Archangelo",
-    img: "music-4",
-    src: "music-4"
-  },
-  {
-    name: "Jim - Sun Goes Down",
-    artist: "Jim Yosef x Roy",
-    img: "music-5",
-    src: "music-5"
-  },
-  {
-    name: "Lost Sky - Vision NCS",
-    artist: "NCS Release",
-    img: "music-6",
-    src: "music-6"
-  },
+    src: "e36_drift.aac"
+  }
   // like this paste it and remember to give comma after ending of this bracket }
   // {
   //   name: "Here is the music name",
